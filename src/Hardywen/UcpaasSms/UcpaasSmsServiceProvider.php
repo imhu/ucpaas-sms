@@ -19,7 +19,6 @@ class UcpaasSmsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//        $this->package('hardywen/ucpaas-sms');
         $source = realpath(__DIR__.'/../../config/ucpaas.php');
 
         $this->publishes([$source => config_path('ucpaas.php')]);
@@ -46,7 +45,7 @@ class UcpaasSmsServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return array('ucpaas-sms');
+        return ['ucpaas-sms'];
     }
 
 }

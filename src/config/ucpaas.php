@@ -1,6 +1,6 @@
 <?php
 
-return array(
+return [
 
     //主账户id
     'sid' => '',
@@ -18,4 +18,4 @@ return array(
     //Rest api 版本
     'softVersion' => '2014-06-30',
 
-);
+];
