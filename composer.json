@@ -1,0 +1,23 @@
+{
+    "name": "imhu/ucpaas-sms",
+    "description": "ucpaas sms 云之讯短信",
+    "keywords": ["laravel laravel5 sms ucpaas php"],
+    "license": "MIT",
+
+    "authors": [
+          {
+              "name": "imhu",
+              "email": "cwhuwei@qq.com"
+          }
+      ],
+      "require": {
+          "php": ">=5.4.0",
+          "laravel/framework": "5.1.*"
+      },
+      "autoload": {
+          "psr-0": {
+              "Hardywen\\UcpaasSms": "src/"
+          }
+      },
+      "minimum-stability": "stable"
+}
